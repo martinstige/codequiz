@@ -8,9 +8,16 @@ namespace codequiz
     {
         public override void RunTest()
         {
+            PrintTestName(this);
             //Write code that finds the sum of first n natural numbers using recursion.
-
-            //Console.WriteLine(SumOfFirst(10) == 55)
+            Console.WriteLine(SumOfFirst(10) == 55);
+            Console.WriteLine(SumOfFirst(0) == 0);
+        }
+        private static int SumOfFirst(int n)
+        {
+            if (n == 0)
+                return 0;
+            return n + SumOfFirst(n - 1);
         }
     }
 }
