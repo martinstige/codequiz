@@ -3,3 +3,10 @@
 ################################################################################
 
 /codequiz/.vs/codequiz
+/codequiz/bin/Debug
+/codequiz/obj
+/qodequiz.tests/bin/Debug
+/qodequiz.tests/obj
+/.vs/codequiz
+/codequiz.tests/bin/Debug
+/codequiz.tests/obj
