@@ -8,11 +8,16 @@
 5. Commit your changes and push back to GitHub.
 
 ## Angular
-This task uses the Angular tutorial as a starting point: https://angular.io/tutorial
-1. Download the source code of the finished app from this tutorial: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip
-2. Set up dev. environment and make sure it runs.
-3. You will now add a feature to the Heroes app. 
-Each hero will have a set of skills. A skill will be just a text string. (Hint add a new property  `skills: string[];` to the file `hero.ts`.)
+This task uses the Angular tutorial as a starting point: https://angular.io/tutorial. The tutorial should contain all information you need to complete this task.
+
+The source code from this tutorial is found int the folder `heroes` in the Git repository. (Also downloadable from: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip)
+
+Set up dev. environment and make sure it runs. Consult the tutorial if needed.
+
+You will now add a feature to the Heroes app. 
+Each hero will have a set of **skills**. A skill will be just a text string. 
+
+(Hint add a new property  `skills: string[];` to the file `hero.ts`.)
 
 On the `hero-detail.component` the list of skill should be shown. 
 Hint:
@@ -24,6 +29,7 @@ Hint:
 </ul>
 ```
 
-It should be possible to add skills for a hero. Add an `input` field and a `button` just below the list of skills. 
-4. Commit your changes and push back to GitHub.
+It should be possible to add skills for a hero. Add an `input` field and a `button` just below the list of skills. When clicking the button, the skill should show up in the list of skills.
+
+Finally, Commit your changes and push back to GitHub.
 
