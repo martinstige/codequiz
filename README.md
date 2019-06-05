@@ -1,4 +1,6 @@
 # codequiz
+This test has two main parts. One with some small C# coding tasks, and one about Angular.
+
 ## C#: 
 1. Download and install Visual Studio Community 2019 from here: https://visualstudio.microsoft.com/vs/
 2. Clone the repository to your computer
