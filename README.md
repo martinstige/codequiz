@@ -5,3 +5,4 @@
 3. Answer questions in files `Question1, Question2, Question4, Question4` under project `codequiz`
 4. In questions 1-4 the results are just outputed to the console. It is better practice to use unit tests to test the results of our code. Create unit tests for the above questions that tests the implemented methods. A sample test is given in project `codequiz.tests`.
 
+5. Commit your changes and push back to GitHub.
