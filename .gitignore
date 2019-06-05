@@ -10,3 +10,4 @@
 /.vs/codequiz
 /codequiz.tests/bin/Debug
 /codequiz.tests/obj
+/heroes/node_modules
