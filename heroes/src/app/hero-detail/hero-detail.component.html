@@ -6,6 +6,23 @@
       <input [(ngModel)]="hero.name" placeholder="name"/>
     </label>
   </div>
+  <div><span>skills: </span>
+  <ul >
+    <li *ngFor="let skill of hero.skills">
+      {{skill}}
+    </li>
+  </ul>
+  </div>
+  <div>
+    <label>Add skill:
+      <input #addSkill />
+    </label>
+  </div>
+  <div>
+    <button (click)="hero.skills.push(addSkill.value); addSkill.value=''; save()">
+      Add
+    </button>
+  </div>
   <button (click)="goBack()">go back</button>
-  <button (click)="save()">save</button>
+  <button (click)="saveAndGoBack()">save</button>
 </div>
